@@ -16,6 +16,7 @@ COPY nginx.conf /etc/nginx/conf.d/default.conf
 COPY index.html /usr/share/nginx/html/
 COPY main.css /usr/share/nginx/html/
 COPY robots.txt /usr/share/nginx/html/
+COPY root.txt /usr/share/nginx/html/
 COPY img/ /usr/share/nginx/html/img/
 COPY js/ /usr/share/nginx/html/js/
 
